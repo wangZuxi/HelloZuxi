@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+/* BEEEG IMPORTANT TITLE */
+
+/* font-family: "Edu VIC WA NT Beginner", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap'); 
+/* Normie Paragraph text */
+/* 
+font-family: "Crimson Pro", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+html{
+    background-color: #da4575;
+    overflow-x: hidden;
+    width: 100vw;
+    overflow-y: hidden;
+    transition: 0.69s;
+    position: absolute;
+    margin-top: 12vw;
+    scroll-behavior: smooth;
+}
+
+/* ========================================================================================================= */
+#loadingScreen{
+    height: 140vh;
+    width: 100vw;
+    background-color: #ecc5cd;
+    position: fixed;
+    margin-top: -12vw;
+    z-index: 5;
+    transition: 2s;
+    text-align: center;
+}
+
+#loadingScreen>h1{
+    margin: 40vh 0 0;
+    font-size: 5vw;
+    color: aliceblue;
+}
+#loadingScreen>p{
+    font-size: 2vw;
+    color: rgb(238, 248, 255);
+}
+
+/* ========================================================================================================= */
+#logo{
+    width: 4vw;
+    height: 5vw;
+    margin: 0 6vw 0;
+    margin-right: 20vw;
+}
+
+.navbar{
+    position: absolute;
+    margin-top: -12vw;
+    width: 100vw;
+    z-index: 4;
+    opacity: 1;
+    transition: 0.369s;
+}
+
+nav{
+    box-shadow: 0 0.1vw 5.1vw #341723;
+}
+
+.navli{
+    font-size: 1.2vw;
+    margin: 4vh 1vw;
+    transition: 0.69s;
+}
+
+.nav > .blank{
+    margin: 0 3vw 0;
+}
+
+
+/* ========================================================================================================= */
+#intro{
+    margin: 11vh 4vw 0;
+    z-index: 2;
+    position: absolute;
+    color: antiquewhite;
+    
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+#introh1{
+    width: 6vw;
+    font-size: 2vw;
+    margin: 0vh 2vw 0;
+    transition: 0.69s;
+    
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+#intro>p{
+    font-size: 3vw;
+    margin: 3vh 3vw 0;
+}
+
+#splineZuxi💕{
+    width: 41vw;
+    height: 73vh;
+    border-radius: 1vw;
+    border: 0.69vw solid #edd5e6;
+    position: absolute;
+    display: block;
+    margin: 6vh 54vw 0;
+    box-shadow: -1.5vw 2.1vw 2.2vw #592341;
+}
+/* ========================================================================================================= */
+
+
+main{
+    position: absolute;
+    margin: 100vh 0 0;
+
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+/* ========================================================================================================= */
+
+#projectsLine{
+    width: 100vw;
+    margin: 15vh 0 0 ;
+}
+
+#projectsH2{
+    font-size: 3vw;
+    margin: 25vh 2vw 0;
+    transition: 0.69s; 
+
+    
+    color: antiquewhite;
+    
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 570;
+    font-style: normal;
+}
+
+#projectsH4{
+    font-size: 2.2vw;
+    margin: 2vh 8vw 8vh;
+    transition: 0.69s; 
+
+    
+    color: #9e9a96;
+    
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.projRow{
+    display: flex;
+    justify-content: center;
+}
+
+
+.projRow > .col{
+    overflow: hidden;
+    width: 23vw;
+    height: 69vh;
+    outline: 0.2vw solid #536640;
+    box-shadow: -0.3vw 2vh #9d765d;
+    margin: 40vh 0vw 0;
+    float: left;
+    background-color: #f7edef;
+    border-radius: 0.69vw;
+    transition: 0.4s ease-out;
+}
+
+
+.projRow > .col:hover ~ .col, .projRow:hover .col{
+    width: 20vw;
+    background-color: #dbc8c8;
+}
+
+
+.projRow > .col:hover{
+    width: 30vw;
+    background-color: #f7edef;
+    box-shadow: 0 2vh 2vw #ffffff69, 0 -2vh 2vw #ffffff69;
+}
+
+/* ========================================================================================================= */
+
+.projRow > .col > .imgBorder{
+    overflow: hidden;
+}
+.projRow > .col > .imgBorder > img{
+    width: 20vw;
+    border-radius: 2vw;
+    display: block;
+    margin: 4vh auto;
+    transition: 0.420s;
+}
+.projRow > .col:hover > .imgBorder > img{
+    scale: 1.1;
+    width: 30vw;
+    border-radius: 0;
+    border-bottom: 0.1vw double black;
+}
+
+.projRow > .col > h3{
+    text-align: center;
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 690;
+    font-style: normal;
+}
+
+.projRow > .col > .linkRow{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.projRow > .col > .linkRow > a > img, .projRow > .col > .linkRow > a{
+    width: 3vw;
+    background: transparent;
+    transition: 0.69s;
+}
+.projRow > .col > .linkRow > a > img:hover{
+    width: 4vw;
+    opacity: 0.420;
+}
+/* ========================================================================================================= */
+
+footer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 300vh 0 0;
+    width: 100vw;
+    text-align: center;
+}
+
+/* ========================================================================================================= */
